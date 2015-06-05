@@ -6,7 +6,7 @@ Dashing.widgets.Knob = function(dashboard) {
     this.__init__ = Dashing.utils.widgetInit(dashboard, 'knob');
     this.row = 1;
     this.col = 1;
-    this.data = {};
+    this.scope = {};
     this.getWidget = function () {
         return widget;
     };
